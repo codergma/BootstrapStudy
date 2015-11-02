@@ -18,8 +18,8 @@
     <![endif]-->
   </head>
   <body>
-<!--标题-->
-    <!--Bootstrap中的标题-->
+<h1>标题</h1>
+  <h5>Bootstrap中的标题</h5>
     <h1>Bootstrap标题一</h1>
     <h2>Bootstrap标题二</h2>
     <h3>Bootstrap标题三</h3>
@@ -491,6 +491,283 @@
   </div>
 </div>
 <h3>列排序</h3>
+  <div class="container">
+    <div class="row">
+      <div style="border:solid 1px #000" class="col-md-4 col-md-push-8">col-md-push-8</div>
+      <div style="border:solid 1px #000" class="col-md-8 col-md-pull-4">col-md-pull-4</div>
+    </div> 
+  </div>
+<h3>嵌套</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+       <div style="background:pink;" class="col-md-6">col-md-6</div> 
+       <div style="background:pink;" class="col-md-6">col-md-6</div> 
+      </div>
+      <div class="col-md-4">
+        <div style="background:pink;"class="col-md-4">col-md-4</div>
+        <div style="background:pink;" class="col-md-4">col-md-4</div>
+        <div style="background:pink;" class="col-md-4">col-md-4</div>
+      </div>
+    </div>
+  </div>
+<h1>下拉菜单</h1>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+     下拉菜单
+     <span class="caret"></span> 
+    </button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">第一部分</li>
+      <li class="active"><a tableindex="-1" href="#">下拉菜单项</a></li>
+      <li ><a tableindex="-1" href="#">下拉菜单项</a></li>
+      <li ><a tableindex="-1" href="#">下拉菜单项</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">第二部分</li>
+      <li class="disabled"><a tableindex="-1" href="#">下拉菜单项2</a></li>
+      <li ><a tableindex="-1" href="#">下拉菜单项22</a></li>
+      <li ><a tableindex="-1" href="#">下拉菜单项222</a></li>
+    </ul>
+  </div>
+<h1>按钮组</h1>
+  <div class="btn-group">
+    <button  type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-step-backward"></span>
+    </button>
+    <button  type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-backward"></span>
+    </button>
+    <button  type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-fast-backward"></span>
+    </button>
+  </div>
+<h1>按钮工具栏</h1>
+  <div class="btn-toolbar">
+    <div class="btn-group">
+      <button class="btn btn-default">
+        <span class="glyphicon glyphicon-align-left" ></span>
+      </button>
+      <button class="btn btn-default">
+        <span class="glyphicon glyphicon-align-center" ></span>
+      </button>
+      <button class="btn btn-default">
+        <span class="glyphicon glyphicon-align-right" ></span>
+      </button>
+      <button class="btn btn-default">
+        <span class="glyphicon glyphicon-align-justify" ></span>
+      </button>
+    </div>
+    <div class="btn-group">
+      <div class="btn btn-default">
+        <span class="glyphicon glyphicon-font"></span>
+      </div>
+      <div class="btn btn-default">
+        <span class="glyphicon glyphicon-bold"></span>
+      </div>
+      <div class="btn btn-default">
+        <span class="glyphicon glyphicon-italic"></span>
+      </div>
+    </div>
+  </div>
+<h1>嵌套分组</h1>
+<div class="btn-group">
+  <div type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    关于我们
+    <span class="caret"></span>
+  </div>
+  <ul class="dropdown-menu">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+  </ul>
+</div>
+<h1>垂直分组</h1>
+<div class="btn-group-vertical">
+  <div class="btn btn-default">首页</div>
+  <div class="btn btn-default">产品展示</div>
+  <div class="btn btn-default">关于我们</div>
+</div>
+<h1>等分按钮</h1>
+<div class="btn-group btn-group-justified">
+  <div class="btn btn-default">首页</div>
+  <div class="btn btn-default">产品展示</div>
+  <div class="btn btn-default">关于我们</div>
+</div>
+<h1>向上三角形</h1>
+<div class="btn-group dropup">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+向上按钮 <span class="caret"></span>
+</button>
+<ul class="dropdown-menu">
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+</ul>
+</div>
+<div class="btn-group dropup">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">按钮下拉菜单<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+         <li><a href="##">按钮下拉菜单项</a></li>
+         <li><a href="##">按钮下拉菜单项</a></li>
+         <li><a href="##">按钮下拉菜单项</a></li>
+         <li><a href="##">按钮下拉菜单项</a></li>
+    </ul>
+</div>
+<div>导航</div>
+<ul class="nav nav-tabs">
+  <li><a href="">HOME</a></li>
+  <li class="active"><a href="">JS</a></li>
+  <li class="disabled"><a href="">CSS</a></li>
+</ul>
+<ul class="nav nav-pills">
+  <li><a href="">HOME</a></li>
+  <li class="active"><a href="">JS</a></li>
+  <li class="disabled"><a href="">CSS</a></li>
+</ul>
+<ul class="nav nav-stacks">
+  <li><a href="">HOME</a></li>
+  <li class="active"><a href="">JS</a></li>
+  <li class="disabled"><a href="">CSS</a></li>
+</ul>
+<ul class="nav nav-tabs nav-justfied">
+  <li><a href="">HOME</a></li>
+  <li class="active"><a href="">JS</a></li>
+  <li class="disabled"><a href="">CSS</a></li>
+</ul>
+<ul class="nav nav-tabs">
+  <li><a href="">HOME</a></li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown">课程<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="">CSS</a></li>
+      <li><a href="">CSS</a></li>
+      <li><a href="">CSS</a></li>
+    </ul>
+  </li>
+  <li class="disabled"><a href="">CSS</a></li>
+</ul>
+<ol class="breadcrumb">
+  <li><a href="">1</a></li>
+  <li><a href="">2</a></li>
+  <li><a href="">3</a></li>
+</ol>
+<h1>导航条</h1>
+<div class="navbar navbar-default ">
+  <div class="navbar-header"><a class="navbar-brand">header</a></div>
+  <ul class="nav navbar-nav">
+    <li><a href="">1</a></li>
+    <li class="dropdown">
+      <a href="##" class="dropdown-toggle" data-toggle="dropdown">2<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a>4</a></li>
+        <li><a>5</a></li>
+        <li><a>6</a></li>
+        <li><a>7</a></li>
+      </ul>
+    </li>
+    <li><a href="">3</a></li>
+  </ul>
+</div>
+<div class="navbar navbar-default navbar-fixed-top">
+  <ul class="nav navbar-nav">
+    <li><a >1</a></li>
+    <li><a >2</a></li>
+    <li><a >3</a></li>
+  </ul>
+</div>
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+      data-target=".navbar-responsive-collapse">
+      <span class="sr-only"> Toggle Navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="##" class="navbar-brand">header</a>
+  </div>
+  <div class="collapse navbar-collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="##">首页</a></li>
+      <li><a href="##">首页</a></li>
+      <li><a href="##">首页</a></li>
+    </ul>
+  </div>
+</div>
+<div class="navbar navbar-inverse">
+  <div class="navbar-header">
+    <a href="##" class="navbar-brand">HEADER</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li><a href="##">1</a></li>
+    <li><a href="##">1</a></li>
+    <li><a href="##">1</a></li>
+  </ul>
+</div>
+<ul class="pagination">
+  <li><a href="##">&laquo</a></li>
+  <li class="active"><a href="##">1</a></li>
+  <li><a href="##">2</a></li>
+  <li><a href="##">3</a></li>
+  <li class="disabled"><a href="##">&raquo</a></li>
+</ul>
+
+<span class="label label-default">default</span>
+<span class="label label-success">success</span>
+<span class="label label-primary">primary</span>
+<span class="label label-info">info</span>
+<span class="label label-warning">warning</span>
+<span class="label label-danger">danger</span>
+<span class="badge">123</span>
+
+<h1>缩略图</h1>
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="##" class="thumbnail">
+      <img src="/img/test.jpg"  >
+    </a>
+    <div class="caption">
+      <h3>headhead</h3>
+      <p>paragraphppparagrapharagrapharagraph</p>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="##" class="thumbnail">
+      <img src="/img/test.jpg"  >
+    </a>
+    <div class="caption">
+      <h3>headhead</h3>
+      <p>paragraphppparagrapharagrapharagraph</p>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="##" class="thumbnail">
+      <img src="/img/test.jpg"  >
+    </a>
+    <div class="caption">
+      <h3>headhead</h3>
+      <p>paragraphppparagrapharagrapharagraph</p>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="##" class="thumbnail">
+      <img src="/img/test.jpg"  >
+    </a>
+    <div class="caption">
+      <h3>headhead</h3>
+      <p>paragraphppparagrapharagrapharagraph</p>
+    </div>
+  </div>
+</div>
+<div class="alert alert-success">success</div>
+<div class="alert alert-info">info</div>
+<div class="alert alert-warning">warning</div>
+<div class="alert alert-danger">danger</div>
+
+<div class="alert alert-success alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert">&times</button>
+  操作成功
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
