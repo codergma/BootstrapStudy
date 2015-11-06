@@ -768,9 +768,117 @@
   <button type="button" class="close" data-dismiss="alert">&times</button>
   操作成功
 </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/jquery-1.11.3.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
+<div class="alert alert-info alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert">&times</button>
+  info
+</div>
+<div class="alert alert-warning alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert">&times</button>
+  info
+</div>
+<div class="alert alert-danger alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert">&times</button>
+  info
+</div>
+<div class="alert alert-success">
+  <a href="##" class="alert-link">this is a link</a>
+</div>
+<h1>进度条</h1>
+<div class="progress">
+  <div class="progress-bar" style="width:40%;"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" style="width:40%;"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-info" style="width:40%;"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-warning" style="width:40%;"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-danger" style="width:40%;"></div>
+</div>
+<div class="progress progress-striped">
+  <div class="progress-bar progress-bar-success" style="width:40%;"></div>
+</div>
+<div class="progress progress-striped">
+  <div class="progress-bar progress-bar-info" style="width:40%;"></div>
+</div>
+<div class="progress progress-striped active">
+  <div class="progress-bar progress-bar-info" style="width:40%;"></div>
+</div>
+<div class="progress progress-striped active">
+  <div class="progress-bar progress-bar-success" style="width:20%;"></div>
+  <div class="progress-bar progress-bar-info" style="width:20%;"></div>
+  <div class="progress-bar progress-bar-danger" style="width:20%;"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+</div>
+<h1>媒体对象</h1>
+<h1>列表组</h1>
+<ul class="list-group">
+  <li class="list-group-item">1<span class="badge">11</span></li>
+  <li class="list-group-item">2</li>
+  <li class="list-group-item">3</li>
+  <li class="list-group-item">4</li>
+</ul>
+<h1>面板</h1>
+<div class="panel panel-default">
+  <div class="panel-heading">HEADER</div>
+  <div class="panel-body">body</div>
+  <div class="panel-footer">footer</div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading">HEADER</div>
+  <div class="panel-body">body</div>
+  <div class="panel-footer">footer</div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading">HEADER</div>
+  <div class="panel-body">
+    <table class="table table-border">
+      <thead>
+       <tr>
+         <th>1</th>
+         <th>2</th>
+         <th>3</th>
+       </tr> 
+      </thead>
+      <tbody>
+       <tr>
+        <td>one</td> 
+        <td>two</td> 
+        <td>three</td> 
+       </tr> 
+      </tbody>
+    </table>
+  </div>
+  <div class="panel-footer">footer</div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading">header</div>
+  <div class="panel-body">body</div>
+  <ul class="list-group">
+    <li class="list-group-item">1</li>
+    <li class="list-group-item">2</li>
+    <li class="list-group-item">3</li>
+  </ul>
+  <div class="panel-footer">footer</div>
+</div>
+
+<h1>模态对话框</h1>
+<div class="modal show">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"></div>
+      <div class="modal-body"></div>
+      <div class="modal-footer"></div>
+    </div>
+  </div>
+</div>
+<script src="/jquery-1.11.3.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
